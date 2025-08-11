@@ -1,0 +1,133 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #eef6fb;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    color: #0077cc;
+    margin-bottom: 20px;
+}
+
+.upload-section {
+    margin-bottom: 20px;
+}
+
+.upload-btn {
+    background-color: #28a745;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-right: 8px;
+    display: inline-block;
+}
+
+button {
+    background-color: #0077cc;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    margin: 5px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background 0.2s;
+}
+
+button:hover, .upload-btn:hover {
+    background-color: #005fa3;
+}
+
+button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+#imagePreview {
+    margin-top: 15px;
+}
+
+#previewImg {
+    max-width: 200px;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+}
+
+.output-section {
+    margin-top: 20px;
+    text-align: left;
+}
+
+textarea {
+    width: 100%;
+    height: 120px;
+    margin-top: 10px;
+    padding: 8px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    background: #f8f8f8;
+    font-size: 14px;
+}
+
+textarea:focus {
+    outline: none;
+    border-color: #0077cc;
+    box-shadow: 0 0 0 2px rgba(0, 119, 204, 0.2);
+}
+
+.loading {
+    color: #0077cc;
+    font-style: italic;
+}
+
+.error {
+    color: #dc3545;
+    font-weight: bold;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #0077cc;
+    color: white;
+    padding: 8px;
+}
+
+td {
+    padding: 8px;
+    background: #f9f9f9;
+}
+
+.processing-row {
+    background-color: #e3f2fd !important;
+    color: #0077cc;
+    font-style: italic;
+    text-align: center;
+}
+
+.error-row {
+    background-color: #ffebee !important;
+    color: #dc3545;
+    font-weight: bold;
+    text-align: center;
+}
